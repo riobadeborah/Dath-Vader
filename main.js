@@ -15,9 +15,15 @@ document.write ("<h1>Hello Everyone! </h1>");
 document.write("<p>I am Dath Vader.</p>")
 document.write("<p>A former Jedi and initially known as Anakin Skywalker. I chose to save my son Luke whom I dearly loved, from the Emperor.</p>")
 document.write("<p>This is a current image of me incase you probably haven't seen me before.</p>")
+
+//Include Dath Vader's image. 
 document.write('<img src="Dath_Vader.png">');
-document.write("<p>I was born in " + (20 + 20) + " BBY (Before the Battle of Yavin). </p>")
+
+//Arithmetic inclusion 
+document.write("<p>I was born in " + (20 + 21) + " BBY (Before the Battle of Yavin). </p>")
 document.write("<p>These are some of the things I enjoy doing:</p>");
+
+//List of items 
 document.write("<ul>");
 
 var activities = ["Finding rebels.", "Studying Sith.", "Meditating."];
